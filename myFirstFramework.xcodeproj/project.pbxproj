@@ -8,16 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		6DB3E826213011DA006E3687 /* myFirstFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DB3E824213011DA006E3687 /* myFirstFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6DB3E82D213011FB006E3687 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DB3E82C213011FB006E3687 /* Main.storyboard */; };
-		6DB3E83121301240006E3687 /* MtFirstWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB3E83021301240006E3687 /* MtFirstWelcomeViewController.swift */; };
+		6DB3E82D213011FB006E3687 /* First.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DB3E82C213011FB006E3687 /* First.storyboard */; };
+		6DB3E83121301240006E3687 /* MyFirstWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB3E83021301240006E3687 /* MyFirstWelcomeViewController.swift */; };
+		6DB3E84721301CFB006E3687 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB3E84621301CFB006E3687 /* Test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6DB3E821213011DA006E3687 /* myFirstFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = myFirstFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DB3E824213011DA006E3687 /* myFirstFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myFirstFramework.h; sourceTree = "<group>"; };
 		6DB3E825213011DA006E3687 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6DB3E82C213011FB006E3687 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		6DB3E83021301240006E3687 /* MtFirstWelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MtFirstWelcomeViewController.swift; sourceTree = "<group>"; };
+		6DB3E82C213011FB006E3687 /* First.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = First.storyboard; sourceTree = "<group>"; };
+		6DB3E83021301240006E3687 /* MyFirstWelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstWelcomeViewController.swift; sourceTree = "<group>"; };
+		6DB3E84621301CFB006E3687 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +54,9 @@
 			children = (
 				6DB3E824213011DA006E3687 /* myFirstFramework.h */,
 				6DB3E825213011DA006E3687 /* Info.plist */,
-				6DB3E82C213011FB006E3687 /* Main.storyboard */,
-				6DB3E83021301240006E3687 /* MtFirstWelcomeViewController.swift */,
+				6DB3E82C213011FB006E3687 /* First.storyboard */,
+				6DB3E83021301240006E3687 /* MyFirstWelcomeViewController.swift */,
+				6DB3E84621301CFB006E3687 /* Test.swift */,
 			);
 			path = myFirstFramework;
 			sourceTree = "<group>";
@@ -127,7 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DB3E82D213011FB006E3687 /* Main.storyboard in Resources */,
+				6DB3E82D213011FB006E3687 /* First.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DB3E83121301240006E3687 /* MtFirstWelcomeViewController.swift in Sources */,
+				6DB3E83121301240006E3687 /* MyFirstWelcomeViewController.swift in Sources */,
+				6DB3E84721301CFB006E3687 /* Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
