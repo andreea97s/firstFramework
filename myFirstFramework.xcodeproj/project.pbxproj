@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		6DB3E826213011DA006E3687 /* myFirstFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DB3E824213011DA006E3687 /* myFirstFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DB3E82D213011FB006E3687 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DB3E82C213011FB006E3687 /* Main.storyboard */; };
+		6DB3E83121301240006E3687 /* MtFirstWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB3E83021301240006E3687 /* MtFirstWelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6DB3E821213011DA006E3687 /* myFirstFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = myFirstFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DB3E824213011DA006E3687 /* myFirstFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myFirstFramework.h; sourceTree = "<group>"; };
 		6DB3E825213011DA006E3687 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DB3E82C213011FB006E3687 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		6DB3E83021301240006E3687 /* MtFirstWelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MtFirstWelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,8 @@
 			children = (
 				6DB3E824213011DA006E3687 /* myFirstFramework.h */,
 				6DB3E825213011DA006E3687 /* Info.plist */,
+				6DB3E82C213011FB006E3687 /* Main.storyboard */,
+				6DB3E83021301240006E3687 /* MtFirstWelcomeViewController.swift */,
 			);
 			path = myFirstFramework;
 			sourceTree = "<group>";
@@ -95,6 +101,7 @@
 				TargetAttributes = {
 					6DB3E820213011DA006E3687 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 				};
 			};
@@ -120,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DB3E82D213011FB006E3687 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DB3E83121301240006E3687 /* MtFirstWelcomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +268,7 @@
 		6DB3E82A213011DA006E3687 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -275,6 +285,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.andreea.myFirstFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -283,6 +294,7 @@
 		6DB3E82B213011DA006E3687 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
